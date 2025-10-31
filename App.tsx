@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import type { GeneratedContent, ScheduledPost } from './types';
 import { generateSocialContent, generateGraphicImage } from './services/geminiService';
-import { FacebookIcon, LinkedInIcon, SparklesIcon, TwitterIcon, ImageIcon, CalendarIcon } from './components/Icons.tsx';
+import { FacebookIcon, LinkedInIcon, SparklesIcon, TwitterIcon, ImageIcon, CalendarIcon } from "./components/Icons.tsx";
 import CopyButton from './components/CopyButton';
 import ScheduleModal from './components/ScheduleModal';
 
